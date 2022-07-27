@@ -10,7 +10,28 @@ body{
 	line-height: 1.55;
 	color: #646464;
 	overflow-x: hidden;
+	background-color: #ddd1bf
 }
+
+.hero-social-container {
+	position: fixed;
+	margin: 0 auto;
+	bottom: 3rem;
+	z-index:97;
+}
+
+.hero-social-icon {
+	width: 64px;
+	cursor: pointer;
+	margin-right: 16px;
+}
+
+@media (min-width: 54em) {
+	.hero-social-icon {
+		margin-right: 20px;
+	}
+  }
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
     font-family: 'AvenirNextRegular';
@@ -89,10 +110,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6dc234;
+    background-color: #c7833b;
   }
   29% {
-    background-color: #6dc234;
+    background-color: #c7833b;
   }
   30% {
     height: 2em;
@@ -113,10 +134,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6dc234;
+    background-color: #c7833b;
   }
   29% {
-    background-color: #6dc234;
+    background-color: #c7833b;
   }
   30% {
     height: 2em;
@@ -137,10 +158,10 @@ mark{
   0% {
     height: 0;
     width: 0;
-    background-color: #6dc234;
+    background-color: #c7833b;
   }
   29% {
-    background-color: #6dc234;
+    background-color: #c7833b;
   }
   30% {
     height: 2em;
@@ -323,7 +344,7 @@ mark{
           transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-	background: #fff;
+	background: #953d20;
 	-webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
