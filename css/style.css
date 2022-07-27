@@ -308,7 +308,7 @@ mark{
 	height: 2px;
 	width: 30px;
 	display: block;
-	background-color: #000;
+	background-color: #66423b;
 	margin-bottom: 7px;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
 	transition: background-color .5s ease, -webkit-transform .2s ease;
@@ -824,7 +824,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 	line-height: 1;
 }
 .hero-center-wrap p{
-	font-size: 18px;
+	font-size: 28px;
 	letter-spacing: 4px;
 	text-align: left;
 	font-weight: 500;
@@ -1752,6 +1752,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 	top: -30px;
 	left: 20px;
 	position: absolute;
+	font-family: 'Rachel';
 	line-height: 1;
 	color: #212121;
 	font-size: 55px;
@@ -2169,8 +2170,7 @@ a:hover{
 }
 .parallax-project-wrapper h2{
 	position: relative;
-    font-family: 'QuincyCF';
-	color: #66423b;
+	color: #953d20;
 	font-size: 35px;
 	line-height: 0.9;
 	padding-top: 20px;
@@ -2179,7 +2179,7 @@ a:hover{
 .parallax-project-wrapper p{
 	position: relative;
 	line-height: 1;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 /* #Project page
